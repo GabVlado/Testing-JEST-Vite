@@ -1,4 +1,4 @@
 module.exports = {
-    //TODO: jest dom
-    setupFiles: ['./jest.setup.js']
+    setupFiles: ['./jest.setup.js'],
+    "testEnviroment": "jsdom"
 }
